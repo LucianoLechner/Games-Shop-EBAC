@@ -15,13 +15,13 @@
             <h1>Games Shop</h1>
             <nav>
                     <ul>
-                        <li> <a href="#"> Sobre a loja</a> </li>
-                        <li> <a href="#"> Contato</a> </li>
+                        <li> <a href="#sobrealoja"> Sobre a loja</a> </li>
+                        <li> <a href="#contato"> Contato</a> </li>
                     </ul>
             </nav> 
         </div>  
     </header>
-    <section>
+    <section id="sobrealoja">
         <div class="Containersection">
             <img src="./IMAGENS/loja.jpg" alt="fachada da loja Games Shop">
             <div>
@@ -36,11 +36,57 @@
                     <li><img src="./IMAGENS/nintendo.png" alt="Nintendo"></li>
                     <li><img src="./IMAGENS/xbox.png" alt="Xbox"></li>
                     <li><img src="./IMAGENS/playstation.png" alt="Playstation"></li>
-                </ul>
-                
-            </div>
-            
+                </ul>               
+            </div>        
         </div>
     </section>
+    <section class="containercontact" id="contato">
+        <h2>Contato</h2>
+        <div class="contact">
+            <div class="faleconosco">
+                <h3>Fale conosco</h3>
+                <form action="">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <input type="tel" placeholder="Seu telefone (Opcional)">
+                    <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="nosacompanhe">
+                <h3>Nos acompanhe</h3>
+                <ul>
+                    <li>
+                        <a href="#" title="Siga-nos no instagram">
+                            <img src="./IMAGENS/instagram.png" alt="Logo instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Siga-nos no facebook">
+                            <img src="./IMAGENS/facebook.png" alt="Logo facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Visite nosso canal no Youtube">
+                            <img src="./IMAGENS/youtube.png" alt="Logo Youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="venhaatenos">
+                <h3>Venha até nós</h3>
+                <p>
+                    Rua JavaScript N. 124, Vila HTML - São Paulo - SP
+                </p>
+            </div>               
+        </div>
+    </section>
+    <footer>
+        <div class="containerrodape">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
