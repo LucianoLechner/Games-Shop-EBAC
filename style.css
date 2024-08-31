@@ -153,5 +153,67 @@ footer {
     margin-top: 20px;
 }
 
+@media (max-width: 900px) {
+    body {
+        background-color: #182C61;
+    }
 
+    .Containerheader {
+        color: #ecf0f1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+        & h1 {
+            margin-bottom: 20px;
+        }
+    }
 
+    .Containersection {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+        & img {
+            padding-right: 0;
+        }
+    
+        & h2{
+            margin: 10px 0 0 10px;
+            color: #ffffff;
+        }
+
+        & p {
+            color: #fcfcfc;
+            padding: 0 10px 0 10px;
+        }
+        
+        & ul li {
+            margin: 20px 0 0 10px;
+        }
+    }
+
+    .containercontact {
+        width: 100%;
+        color: white;
+        margin: auto 10px 0 10px;
+    
+        & form button {
+            background-color: #ecf0f1;
+            color: #182C61;
+        }
+    
+        & .contact{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+        
+    .nosacompanhe {
+        margin: auto auto 0 10px;
+        }
+    
+    footer {
+    margin: auto auto 0 10px;
+    }
+}
